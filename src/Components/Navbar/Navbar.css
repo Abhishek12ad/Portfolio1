@@ -7,19 +7,17 @@
     margin-left: 40px;
     margin-right: 40px;
 }
-.navbar h1{
-    size: 30px;
-}
+
 
 .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 40px;
+    gap: 45px;
     font-size: 20px;
 }
 .nav-connect{
-    padding: 10px 20px;
+    padding: 15px 25px;
     border-radius: 50px;
     background: linear-gradient(267deg, #D47C25 0.36%, #B923E1 102.06%);
     font-size: 22px;
@@ -51,20 +49,27 @@
 }
 @media (max-width: 768px) {
     .navbar{
-        margin: 20px 50px;
+        margin: 20px 6%;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
     }
     .nav-connect {
       display: none;
     }
+    .navbar h1{
+        position: relative;
+        
+        text-align: start;
+    }
   
     .nav-mob-open {
       display: block;
-      position: fixed;
-      right: 30px;
-      top: 20px;
-      font-size: 30px;
+      position: absolute;
+      right: 37px;
       cursor: pointer;
       color: white;
+      width: 30px;
     }
     .nav-mob-close {
         display: block;
